@@ -1,0 +1,200 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, ;
+}
+
+.icon{
+    width: 28px;
+    gap: 10px;
+}
+.profile{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+
+
+header{
+    display: flex;
+ 
+    justify-content: space-between;
+    padding: 10px 32px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.search{
+    display: flex;
+    gap: 16px;
+
+}
+
+.inputwrapper{
+    display: flex;
+    background-color: #eeeeee;
+    width: 550px;
+    border: 1px solid #eeeeee;
+    border-radius: 32px;
+
+}
+
+.inputwrapper input{
+    border: none;
+    outline: none;
+    padding: 5px 16px;
+    width: 90%;
+    border-radius: 32px 0 0 32px;
+}
+
+.inputwrapper img{
+    margin: auto;
+
+}
+
+.mic{
+    background-color: #eeeeee;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.buttonwrapper{
+    display: flex;
+    gap: 16px;
+ 
+}
+
+.buttonwrapper button{
+    border: none;
+    display: flex;
+    background-color: #eeeeee;
+    padding: 6px 16px;
+    border-radius: 32px;
+    font-weight: bold;
+    align-items: center;
+    gap: 6px;
+}
+
+
+.maincontent{
+    display: flex;
+}
+
+.sidebar{
+    padding: 8px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap:31px;
+}
+.navitem{
+    text-align: center;
+}
+
+.navitem img{
+    width:28px;
+    
+ 
+}
+
+.videosection{
+    width:100%;
+    padding: 8px 16px;
+
+}
+
+.pillswrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pills{
+    background-color: #eeeeee;
+    padding: 6px 10px;
+    border-radius: 8px;
+    align-items: center;
+    font-weight: 550px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.active{
+    background-color: black;
+    color: white;
+}
+
+.video{
+    max-width: 320px;
+}
+
+.thumbnail img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.thumbnail{
+    position: relative;
+   
+}
+
+.thumbnail p{
+    position:absolute;
+    bottom: 12px;
+    right: 12px;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    padding: 2px 4px;
+}
+
+.videodetails{
+    display: flex;
+    gap:16px;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 8px;
+ 
+}
+
+.channel{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  
+}
+
+.videodetails h3{
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.videodetails p{
+    color: rgb(90, 84, 84);
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.videocontainer{
+   padding: 16px 6px;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   grid-gap:16px ;
+}
+
+@media  screen and (max-width:700px) {
+    
+}
